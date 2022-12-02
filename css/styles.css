@@ -1,0 +1,795 @@
+body {
+    user-select: none;
+}
+
+#section1 {
+    padding-bottom: 166px;
+    width: 100%;
+    background-image: url("../images/Main BG 1 Page.png");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+}
+
+#section1 .logoBox {
+    background-color: #a3a3a366;
+}
+
+#section1 ul {
+    font-weight: bold;
+    color: #c1cbda;
+}
+#section1 ul li{
+    cursor: pointer;
+    font-size: 11px;
+}
+
+#section1 .arrowLanguage {
+    top: 13px;
+    right: 11px;
+}
+
+#section1 .languageText {
+    color: #c1cbda;
+    font-size: 11px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+
+#section1>div>div>div {
+    cursor: pointer;
+}
+
+#section2 {
+    background-image: radial-gradient(#3a0331, #070d23);
+    animation-name: changeSection2Bg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeSection2Bg {
+    to{
+        background-image: radial-gradient(#070d23,#3a0331);
+    }
+}
+
+#section2 span {
+    color: #E82A2A;
+}
+
+#section2 .mySwiper .swiper-slide {
+    background-color: #001029;
+    Width: 267px;
+    Height: auto;
+    border-radius: 9px;
+    border: 1px solid #1c283e;
+}
+
+.star {
+    background-color: #d4dcd4;
+    margin: 0 4px;
+    padding: 3px;
+}
+
+#section2 .mySwiper .swiper-slide>div>div:first-child .star,
+.stars div:first-child .star {
+    border-top-left-radius: 44px;
+    border-bottom-left-radius: 44px;
+}
+
+#section2 .mySwiper .swiper-slide>div>div:last-child .star,
+.stars div:last-child .star {
+    border-top-right-radius: 44px;
+    border-bottom-right-radius: 44px;
+}
+
+#section2 .mySwiper .swiper-slide p {
+    font-size: 14px;
+    color: white;
+    padding: 2px 15px;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    display: none;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    display: none;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: 30px!important;
+    left: auto;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: 30px!important;
+    right: auto;
+}
+
+.mySwiper .swiper-button-next img,
+.mySwiper .swiper-button-prev img {
+    background-image: -webkit-linear-gradient(left, #ff55e44f, #0038ff47);
+    border-radius: 88px;
+    padding: 9px;
+}
+
+#section2 .mySwiper2 .swiper-slide,
+.mySwiper2Ipad .swiper-slide {
+    width: 267px;
+    height: 324px;
+    border-radius: 9px;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all .4s;
+    cursor: pointer;
+}
+.mySwiper2Ipad .swiper-slide:hover,#section2 .mySwiper2 .swiper-slide:hover {
+    transform: skewX(3deg);
+}
+
+.mySwiper2Ipad .col-xl-4 {
+    margin-bottom: 9rem!important;
+}
+
+.mySwiper2Ipad .swiper-slide {
+    width: 100%!important;
+}
+
+.mySwiper2 .swiper-button-next img,
+.mySwiper2 .swiper-button-prev img {
+    background-image: -webkit-linear-gradient(left, #ff55e44f, #0038ff47);
+    border-radius: 88px;
+    padding: 9px;
+}
+
+.mySwiper2 .bigImg,
+.mySwiper2Ipad .bigImg {
+    inset: 0;
+}
+
+.mySwiper2 .gameLogo,
+.mySwiper2Ipad .gameLogo {
+    width: 47px;
+    height: 47px;
+    background-color: #050a20;
+    border: 1px solid #292840;
+    border-radius: 9px;
+    left: 39px;
+    top: 46px;
+}
+
+.mySwiper2 p,
+.mySwiper2Ipad p {
+    top: 128px;
+    left: 39px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.mySwiper2 .playIcon,
+.mySwiper2Ipad .playIcon {
+    background-image: -webkit-linear-gradient(left, #0E4597, #FFC83A);
+    width: 56px;
+    height: 56px;
+    border-radius: 49%;
+    left: 39px;
+    bottom: -90px;
+    cursor: pointer;
+}
+.velorant .playIcon {
+    background-image: -webkit-linear-gradient(left, #0E4597, #A93AFF);
+}
+.cs .playIcon {
+    background-image: -webkit-linear-gradient(left, #0E4597, #3A71FF);
+}
+.mobileDota .playIcon {
+    background-image: -webkit-linear-gradient(left, #0E4597, #3AFF71);
+}
+
+.selectGameBtn {
+    background-image: url("/images/Rectangle 6.png")!important;
+    height: 53px;
+    background-repeat: no-repeat;
+    width: 219px;
+    cursor: pointer;
+}
+
+#section3 {
+    background-image: -webkit-linear-gradient(left, #FD3575, #f04953);
+    padding-top: 99px;
+    padding-bottom: 36px;
+}
+
+#section3 .section3Title {
+    margin-top: -115px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 352px;
+}
+
+#section3>div>div>div {
+    width: 99px;
+    height: 99px;
+    margin: auto;
+    border-radius: 49%;
+    background-image: -webkit-linear-gradient(left, #fd8cb0, #FFCEDE);
+}
+#section3>div>div:first-child {
+    margin-left: 0!important;
+}
+#section3 p {
+    color: #fcb9be;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center!important;
+    width: 299px!important;
+    margin: auto;
+}
+#section3 h5 {
+    text-align: center;
+}
+
+#section3 .platformProcessDesc {
+    font-size: 13px;
+}
+
+#section4 {
+    background-image: radial-gradient(#201539, #070d23);
+}
+
+#section4 .mySwiper3 {
+    margin: 42px;
+}
+
+#section4 .mySwiper3 img {
+    width: 37px;
+    margin-top: -3px;
+}
+
+#section4 .swiper-slide {
+    background-color: #272942;
+    padding: 22px;
+    position: relative;
+    border-radius: 20px!important;
+    border: 4px solid #384251!important;
+    height: auto;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#section4 .swiperParent:after {
+    content: url("/images/;;.png");
+    position: absolute;
+    bottom: -23px;
+    right: 75px;
+    z-index: 9;
+}
+
+#section4 .swiper-pagination-bullet-active {
+    background: #FF3A3A;
+}
+
+#section4 .swiper-pagination-bullet {
+    border: 2px solid white;
+    border-radius: 49%;
+    width: 20px;
+    height: 20px;
+}
+
+#section4 .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    top: 17px;
+    left: 21px;
+    height: 26px;
+    direction: unset;
+    text-align: left;
+}
+
+#section4 .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    left: 37px;
+    height: 26px;
+}
+
+.borderBottom {
+    width: 100%;
+    height: 26px;
+    background-image: -webkit-linear-gradient(left, #FD3575, #FD3575);
+    bottom: 0;
+}
+
+#section5 {
+    background-repeat: no-repeat;
+    background-image: radial-gradient(#201539, #070d23);
+}
+
+#section5>img {
+    top: 2px;
+    right: 10px;
+    width: 81%;
+}
+
+#section5 .questionBtn {
+    width: 199px;
+    height: 40px;
+    background-image: url("/images/Rectangle 52.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 2px 9px;
+    font-size: 14px;
+}
+
+#section5 .questionBox {
+    background-color: #a3a3a32e;
+    border-radius: 9px;
+    width: 350px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section5 .questionBox img.questionArrow {
+    right: 10px;
+    width: 29px;
+    transition: all .4s;
+    transform: rotate(0deg);
+}
+
+#section5 .questionBox img.questionArrow.active {
+    transform: rotate(180deg);
+}
+
+#section5 .questionBox .questionDesc {
+    max-height: 0;
+    padding: 0!important;
+    margin: 0!important;
+    transition: all .4s;
+    display: none;
+}
+
+#section5 .questionBox .questionDesc.active {
+    max-height: 999px;
+    display: block;
+    transition: all .4s;
+    margin-top: 40px!important;
+}
+#section5 .questionBoxBtnText {
+    z-index: 9;
+    font-size: 13px;
+}
+
+footer {
+    background-color: #050a20;
+    color: #878f9a!important;
+}
+
+.w-90 {
+    width: 90px;
+    margin-top: -26px;
+}
+
+footer ul {
+    line-height: 33px;
+    font-size: 9px;
+}
+
+footer h6 {
+    color: #E82A2A;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 390px) {
+    #section2 .mySwiper2 .swiper-slide {
+        width: 395px;
+        height: 445px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #section1 {
+        padding-bottom: 166px;
+        width: 100%;
+        background-image: url("../images/Main BG 1 Page.png");
+        background-repeat: no-repeat;
+        background-position: inherit;
+        background-size: cover;
+    }
+    #section3 .section3Title {
+        width: 267px;
+    }
+    #section3>div>div>div {
+        margin: auto!important;
+    }
+    #section3>div>div:first-child {
+        margin-left: 0!important;
+    }
+    #section3>div>div {
+        height: 299px;
+        text-align: center!important;
+        margin: auto!important;
+    }
+    #section3>div>div>div {
+        margin: auto!important;
+    }
+    #section3 .platformProcessDesc {
+        text-align: center!important;
+        width: 299px!important;
+        margin: auto!important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .mySwiper2 .bigImg, .mySwiper2Ipad .bigImg {
+        margin: auto;
+    }
+    #section2 .mySwiper2 .swiper-slide, .mySwiper2Ipad .swiper-slide {
+        height: 58vh;
+        margin: auto!important;
+        display: block!important;
+        width: 94%;!important;
+    }
+    #section2 .mySwiper2 .swiper-slide > div {
+        width: 342px;
+        height: 444px;
+        margin: auto;
+    }
+    .mySwiper2 .playIcon {
+        bottom: 19px;
+    }
+}
+@media screen and (min-width: 992px) {
+    #section1 {
+        padding-bottom: 78px;
+    }
+    #section1 ul {
+        font-size: 14px;
+    }
+    #section1 .container{
+        padding: 0 99px;
+    }
+    #section1 .headerBg {
+        height: 816px!important;
+    }
+    #section1 .headerMenu {
+        margin-top: -814px;
+        margin-left: -112px;
+    }
+    #section1 .selectGameBtnIpad {
+        margin-top: 8px!important;
+    }
+    #section2 .mySwiper .swiper-slide {
+
+    }
+    .mySwiper2Ipad .swiper-slide {
+        width: 77%!important;
+    }
+    .dota {
+        width: 547px!important;
+        height: 546px!important;
+        margin-top: -30px!important;
+        margin-left: -38px!important;
+    }
+    #section2 .section2Ipad {
+        height: 474px;
+        width: 63%;
+        border-radius: 20px;
+        border: 2px solid #232B46;
+        background-color: #050a20;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    #section2 .mySwiper {
+        margin-top: 131px;
+    }
+    #section2 .mySwiper .swiper-slide p {
+        font-size: 16px;
+        margin-bottom: 55px;
+        text-align: justify;
+    }
+    #section2 .mySwiper .swiper-slide>p {
+        font-size: 14px;
+    }
+    .mt-6 {
+        margin-top: 99px!important;
+        width: 534px;
+    }
+    .platformTitle {
+        width: 454px;
+    }
+    .platformImg {
+        width: 494px;
+        margin-top: 49px!important;
+    }
+    #section3 {
+        padding-bottom: 0!important;
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    #section3>div>div {
+        width: 32%!important;
+        height: 299px;
+        text-align: center!important;
+    }
+    #section3>div>div:first-child {
+        margin-left: 0!important;
+    }
+    #section3 .platformProcessDesc {
+        text-align: center!important;
+        width: 46%!important;
+        margin: auto;
+    }
+    #section3>div>div>div {
+        margin: auto;
+    }
+    #section3 .section3Title {
+        width: 727px;
+    }
+    #section3 .section3VideoIpad {
+        background-image: url("/images/Frame 6.1.png")!important;
+        height: 307px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #section3 .section3VideoIpad img:first-child {
+        height: 110%!important;
+    }
+    #section3 .section3VideoIpad .btn {
+        z-index: 9;
+    }
+    #section4 {
+        background-image: url("/images/Group 196.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #090c11;
+    }
+    #section4 .swiper-slide {
+        background-color: #2c384894;
+        height: 236px;
+        font-weight: bold;
+        font-size: 13px;
+        padding-top: 44px!important;
+    }
+    #section4 .mySwiper3 img {
+        width: 30px;
+        margin-left: 26px;
+    }
+    #section4 .section4RightPart {
+        line-height: 27px;
+    }
+    #section4 .section4RightPart p {
+        width: 427px;
+        line-height: 24px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #section5 {
+        padding-bottom: 0!important;
+        padding-top: 133px!important;
+    }
+    #section5 .section5Bg {
+        width: 607px;
+        top: 226px;
+    }
+    #section5 .anime {
+        position: absolute;
+        width: 77px;
+        left: 50px;
+        top: -57px;
+    }
+    #section5 .questionBtn {
+        width: 476px;
+        height: 94px;
+        background-size: cover;
+    }
+    #section5 .questionBoxBtnText {
+        z-index: 9;
+        font-size: 22px;
+    }
+    #section5 .questionBoxIpad {
+        background-color: #80808059;
+        width: 474px;
+        border-radius: 33px;
+        padding-bottom: 29px;
+        margin: auto;
+        margin-bottom: 47px;
+    }
+    #section5 .questionBox {
+        font-size: 13px;
+        width: 423px;
+        height: 67px;
+    }
+    #section5 .questionBox p {
+        font-size: 20px;
+    }
+    #section5 .section5MainImg {
+        margin-top: 184px;
+        width: 373px;
+        margin-left: 27px;
+    }
+    footer .underFooterLogo {
+        font-size: 14px!important;
+        margin-top: -37px;
+    }
+    footer>div:nth-child(2) {
+        padding: 2px 104px;
+    }
+    footer>p {
+        padding: 2px 100px;
+    }
+    footer ul {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    footer h6 {
+        font-size: 23px;
+    }
+    footer .w-92 {
+        width: 91%!important;
+        margin-left: auto!important;
+        padding-right: 42px;
+    }
+    .w-90 {
+        width: 136px;
+    }
+    .underFooterLogo {
+        margin-left: 53px!important;
+        font-weight: bold!important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #section1 {
+        padding-bottom: 78px;
+        height: 1085px;
+    }
+    #section1 .headerBg {
+        height: 1085px!important;
+    }
+    #section1 .headerMenu {
+        margin-top: -1082px;
+        margin-left: 0;
+    }
+    #section1 .desktopTitle {
+        margin-top: 116px!important;
+        width: 625px;
+    }
+    .stars .star {
+        width: 32px;
+    }
+    #section2 .mySwiper {
+        height: auto;
+    }
+    #section2 .mySwiper .swiper-slide {
+        width: 300px!important;
+    }
+    .mySwiper2Ipad .swiper-slide {
+        width: 100%!important;
+    }
+    #section2 .section2Ipad {
+        height: 575px;
+    }
+    .dota {
+        width: 532px;
+        height: 544px;
+        margin-top: -52px;
+        margin-left: -27px;
+    }
+    .dota {
+        margin-top: 25px;
+    }
+    .ml-xl-6 {
+        margin-left: 20px!important;
+    }
+    .line1 {
+        top: -151px!important;
+        left: 57px!important;
+        height: 1228px;
+    }
+    .line2 {
+        top: 85px!important;
+        left: 34px!important;
+    }
+    .line3 {
+        top: -164px!important;
+        right: 57px!important;
+        height: 1228px;
+    }
+    .line4 {
+        top: 85px!important;
+        right: 34px!important;
+    }
+    .platformTitleDesktop {
+        margin-top: 57px;
+    }
+    .platformDescriptionDesktop {
+        line-height: 30px;
+        font-size: 18px;
+        color: #8e89a6!important;
+    }
+    #section3 .platformProcessDesc {
+        text-align: left!important;
+        margin: auto;
+        width: 100%!important;
+    }
+    #section3 .section3Title {
+        width: 1000px;
+    }
+    #section3 h5 {
+        text-align: left!important;
+    }
+    #section3>div>div>div {
+        margin-right: auto!important;
+        margin-left: 0;
+    }
+    #section3 .section3VideoIpad {
+        height: 373px;
+    }
+    #section4 {
+        height: 821px;
+    }
+    #section4 .swiperParent:after {
+        top: -11px;
+        right: 117px;
+        transform: rotate(180deg);
+        height: 27px;
+    }
+    #section4 .section4DescTopBg {
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0000005c;
+    }
+    #section4 .swiper-slide {
+        height: 330px;
+        position: relative;
+    }
+    #section4 .swiper-slide:after {
+        top: 1px;
+    }
+    #section4 .mySwiper3 {
+        margin: 0!important;
+        margin-right: 55px!important;
+    }
+    #section4 .mySwiper3 img {
+        width: 53px;
+        margin-left: 13px;
+    }
+    #section4 .mac {
+        width: 381px;
+    }
+    #section4 .section4RightPart {
+        line-height: 44px;
+    }
+    .tablet {
+        right: 102px;
+        position: absolute;
+        bottom: -17px;
+        z-index: 9;
+    }
+    .section5MainImg {
+        width: 449px!important;
+        margin-top: 61px!important;
+        margin-left: -14px;
+    }
+    #section5 .section5Bg {
+        width: 1199px;
+        top: -3px;
+        right: 0;
+    }
+    .underFooterLogo {
+        margin-left: 0 !important;
+    }
+}
